@@ -1,0 +1,269 @@
+.page-1 {
+    background: #ff4040 !important;
+}
+.page-2 {
+    background: #00ab61 !important;
+}
+.page-3 {
+    background: #007bff !important;
+}
+.lg-graphics {
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.moduleHolder {
+    height: 400px !important;
+    position: relative;
+    padding: 0;
+}
+.wafer-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto 0 auto;
+}
+.pieceHolder {
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    opacity: 1;
+    z-index: 1;
+    transition: 0.1s;
+}
+.one {
+    width: 6.58%; 
+    height: 14.4%; 
+    top: 20.5%; 
+    left: 33.2%;
+}
+.two {
+    width: 14.4%; 
+    height: 18.4%; 
+    top: 11.8%; 
+    left: 37.8%;
+}
+.three {
+    width: 9.5%; 
+    height: 22.9%; 
+    top: 11.8%; 
+    right: 40.25%;
+}
+.four {
+    width: 7.45%; 
+    height: 13.2%; 
+    top: 17%; 
+    right: 34.8%;
+}
+.five {
+    width: 11.8%; 
+    height: 18.5%; 
+    top: 31%; 
+    left: 30.46%;
+}
+.six {
+    width: 9.5%; 
+    height: 27.8%; 
+    top: 26.4%; 
+    left: 40.3%;
+}
+.seven {
+    width: 14.3%; 
+    height: 18.7%; 
+    top: 30.9%; 
+    right: 37.9%;
+}
+.eight {
+    width: 9.4%; 
+    height: 27.9%; 
+    top: 26.4%; 
+    right: 30.46%;
+}
+.nine {
+    width: 9.4%; 
+    height: 28.1%; 
+    bottom: 26.3%; 
+    left: 30.46%;
+}
+.ten {
+    width: 14.27%; 
+    height: 18.5%; 
+    bottom: 31%; 
+    left: 37.9%;
+}
+.eleven {
+    width: 9.5%; 
+    height: 27.9%; 
+    bottom: 26.35%; 
+    right: 40.25%;
+}
+.twelve {
+    width: 11.8%; 
+    height: 18.5%; 
+    bottom: 31%; 
+    right: 30.46%;
+}
+.thirteen {
+    width: 7.2%; 
+    height: 12.6%; 
+    bottom: 17.5%; 
+    left: 35%;
+}
+.fourteen {
+    width: 9.5%; 
+    height: 22.6%; 
+    bottom: 12.1%; 
+    left: 40.25%;
+}
+.fifteen {
+    width: 14.4%; 
+    height: 18.4%; 
+    bottom: 11.8%; 
+    right: 37.8%;
+}
+.sixteen {
+    width: 6.5%; 
+    height: 14.1%; 
+    bottom: 20.7%; 
+    right: 33.3%;
+}
+.two:hover {opacity:0.6;}
+.three:hover {opacity:0.6;}
+.five:hover {opacity:0.6;}
+.six:hover {opacity:0.6;}
+.seven:hover {opacity:0.6;}
+.eight:hover {opacity:0.6;}
+.nine:hover {opacity:0.6;}
+.ten:hover {opacity:0.6;}
+.eleven:hover {opacity:0.6;}
+.twelve:hover {opacity:0.6;}
+.fourteen:hover {opacity:0.6;}
+.fifteen:hover {opacity:0.6;}
+
+
+div.tab {
+    overflow: hidden;
+    background-color: #0071c5;
+    width: 100%;
+}
+
+div.tab button {
+    display: block;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 70%;
+    width: 33.33%;
+    height: 9vh;
+    color: #ffffff;
+    font-size: 14px;
+
+}
+div.tab button:hover {
+    background-color: #ffa300;
+}
+div.tab button.active {
+    background-color: #00aeef;
+    border-bottom: solid #0071c5;
+}
+.maintabcontent {
+    background: #00aeef;
+    display: block;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 100%;
+}
+.iMtooltip .iMtooltiptext {
+    visibility: hidden;
+    transition: opacity 1s;
+}
+.iMtooltip:hover .iMtooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.map_position {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 93.3%;
+    opacity: 0.8;
+    z-index: 0;
+}
+.pinHolder {
+    width: 1.5%;
+    height: 3.8%;
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    opacity: 0.6;
+    z-index: 90;
+}
+.pinHolder:hover {
+    opacity: 1;
+}
+.pinHolder .textbox {
+    width: 1000%;
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+    border: solid 1px #ccc;
+    position: absolute;
+    font-size: 70%;
+    z-index: 3;
+    box-shadow: 1px 2px 3px #0071c5;
+}
+.textbox table {
+    width: 100%;
+    margin: 0;
+}
+.textbox table tr td{
+    padding: 10px;
+    width: 100%;
+}
+.textbox table tr:hover{
+    background: #f4f4f4;
+}
+.textbox table tr td b{
+    color: #0071c5;
+}
+.intelLabsPin {
+    width: 7%;
+    height: 12%;
+    display: inline-block;
+    position:absolute;
+    text-decoration: none;
+    opacity: 0.8;
+    z-index: 10;
+}
+.intelLabsPin:hover {
+    opacity: 1;
+}
+.intelLabsPin .textbox {
+    width: 130%;
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+    border: solid 1px #ccc;
+    position: absolute;
+    font-size: 70%;
+    z-index: 5;
+    box-shadow: 1px 2px 3px #0071c5;
+}
+.GA-pin {top: 32.7%; left: 24.7%;}
+.WA-pin {top: 24%; left: 18%;}
+.PA-pin {top: 27.8%; left: 27%;}
+.MA-pin {top: 27%; left: 28.4%;}
+.CA-pin {top: 30%; left: 16.2%;}
+.London-pin {top: 21%; left: 45.5%;}
+.Beijing-pin {top: 28.8%; left: 73.8%;}
+.MI-pin {top: 24.7%; left: 25.2%; z-index: 5;}
+.NY-pin {top: 26.8%; left: 27.2%;}
+.AZ-pin {top: 31.7%; left: 18%;}
+.TX-pin {top: 33.5%; left: 20.8%;}
+.IN-pin {top: 27.9%; left: 24.8%;}
+.IL-pin {top: 28.3%; left: 23.9%;}
+.OR-pin {top: 17%; left: 14%;}
+.EUR-pin {top: 12.5%; left: 41.5%;}
+.PRC-pin {top: 20.4%; right: 22%;}
